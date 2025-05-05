@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "jsonschema>=2.6.0",
+    "meltanolabs-target-snowflake>=0.17.1",
+    "polars>=1.28.1",
+    "requests>=2.32.3",
+    "singer-python==1.8.1",
+]
