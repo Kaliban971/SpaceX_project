@@ -1,0 +1,10 @@
+#virtual environment
+.venv
+
+#pipeline config
+config.json
+.env
+
+#dbt artifacts
+dbt/logs
+logs

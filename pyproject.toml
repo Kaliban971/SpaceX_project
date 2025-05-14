@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dbt-snowflake>=1.9.2",
+    "icecream>=2.1.4",
     "jsonschema>=2.6.0",
     "meltanolabs-target-snowflake>=0.17.1",
-    "polars>=1.28.1",
+    "pandas>=2.2.3",
     "requests>=2.32.3",
     "singer-python==1.8.1",
 ]
