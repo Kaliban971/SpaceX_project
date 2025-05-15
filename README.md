@@ -36,8 +36,9 @@ pip install -e .
 ## Utilisation
 ### Exécution du pipeline complet
 # Exécuter l'extraction et le chargement
+```python
 python tap-spacex/tap_spacex.py | target-snowflake --config tap-spacex/config.json
-
+```
 # Exécuter les transformations dbt
 cd dbt/spacex_project
 dbt run
