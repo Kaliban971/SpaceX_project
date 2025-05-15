@@ -17,11 +17,17 @@ Le pipeline est composé de trois composants principaux :
 
 ## Installation
 # Créer et activer un environnement virtuel
+```bash
 python -m venv .venv
-.\.venv\Scripts\activate
+```
+```bash
+source .venv\Scripts\activate
+```
 
 # Installer les dépendances
+```bash
 pip install -e .
+```
 
 ## Configuration
 1. Créez un fichier .env dans le dossier tap-spacex avec les variables d'environnement nécessaires
